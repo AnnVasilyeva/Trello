@@ -1,4 +1,4 @@
-export default function DnD(cards, lists) {
+export default function DragDrop(cards, lists) {
   function getNextElement(cursorPosition, currentElement) {
     // Получаем объект с размерами и координатами
     const currentElCoordinates = currentElement.getBoundingClientRect();

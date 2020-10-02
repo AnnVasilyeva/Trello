@@ -1,5 +1,5 @@
 import makeNewCard from './app';
-import DnD from './DnD';
+import DragDrop from './DnD';
 
 document.addEventListener('DOMContentLoaded', () => {
   const todo = document.querySelector('.todo-list');
@@ -18,5 +18,5 @@ document.addEventListener('DOMContentLoaded', () => {
   const allCards = document.querySelectorAll('.list-item');
   const allLists = document.querySelectorAll('.list');
 
-  DnD(allCards, allLists);
+  DragDrop(allCards, allLists);
 });

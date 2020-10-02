@@ -1,6 +1,6 @@
 import NewForm from './addForm';
 import Card from './Card';
-import DnD from './DnD';
+import DragDrop from './DnD';
 
 const addNewForm = new NewForm();
 const addCard = document.querySelectorAll('.add-card-container');
@@ -35,7 +35,7 @@ export default function makeNewCard(title, list) {
 
       const allCards = document.querySelectorAll('.list-item');
 
-      DnD(allCards, allLists);
+      DragDrop(allCards, allLists);
     });
   });
 });
